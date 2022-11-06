@@ -1,7 +1,5 @@
-import java.util.Scanner;
 public class Exercicio03 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         double taxa = 0.0825;
         double CodItem1 = 2.95;
         double CodItem2 = 3.50;
@@ -16,6 +14,5 @@ public class Exercicio03 {
         System.out.println(taxaCalculada);
         System.out.println(NovoCusto);
         System.out.println(Precoalto);
-        sc.close();
     }
 }
